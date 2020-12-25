@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "kemet-ratio",
+      "description": "Displays a box given an aspect ratio. Especially useful for embeds.",
+      "properties": [
+        {
+          "name": "aspectRatio",
+          "type": "String",
+          "description": "The aspect ratio of the box.",
+          "default": "16:9"
+        }
+      ],
+      "events": [],
+      "slots": [],
+      "cssProperties": [
+        {
+          "name": "::part(container)",
+          "description": "Contains your content.",
+          "type": "Part"
+        }
+      ]
+    }
+  ]
+}
